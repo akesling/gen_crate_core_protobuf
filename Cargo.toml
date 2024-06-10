@@ -1,0 +1,17 @@
+[workspace]
+
+members = [
+    "gen_crate_core",
+    "schema",
+]
+
+resolver="2"
+
+[workspace.dependencies]
+prost = "0.12.6"
+schema = { path = "schema" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[workspace.build-dependencies]
+prost-build = "0.12.6"

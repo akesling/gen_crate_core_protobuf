@@ -1,0 +1,11 @@
+[package]
+name = "schema"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+prost = { workspace = true }
+serde = { workspace = true }
+
+[build-dependencies]
+prost-build = "0.12.6"

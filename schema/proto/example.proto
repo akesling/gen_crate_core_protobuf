@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package example_types.nested_namespace.proto;
+
+// Next ID: 3
+message HelloProtocolBuffer {
+    string greeting = 1;
+    string object = 2;
+}
